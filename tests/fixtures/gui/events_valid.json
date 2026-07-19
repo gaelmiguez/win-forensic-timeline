@@ -1,0 +1,20 @@
+[
+  {
+    "event_id": "fixture-event-001",
+    "timestamp_utc": "2024-01-10T09:00:00+00:00",
+    "timestamp_local": null,
+    "timestamp_type": "visit_time",
+    "source_artifact": "BrowserHistory",
+    "source_location": "evidence/browser/sample/History",
+    "event_category": "browser_activity",
+    "event_action": "url_visit",
+    "object": "https://example.com/",
+    "description": "Visita sintética",
+    "raw_evidence": {"url": "https://example.com/"},
+    "parser_module": "browser_history_parser",
+    "traceability_ref": "History:urls:1",
+    "confidence": 0.9,
+    "provenance": {"parser": "browser_history_parser"},
+    "scenario_id": "S_GUI_FIXTURE"
+  }
+]

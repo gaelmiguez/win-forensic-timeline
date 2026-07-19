@@ -1,0 +1,242 @@
+:root {
+  --fc-primary: #0071e3;
+  --fc-primary-hover: #005fbf;
+  --fc-canvas: #f5f7fa;
+  --fc-surface: #ffffff;
+  --fc-surface-subtle: #f8fafc;
+  --fc-text: #243247;
+  --fc-muted: #667085;
+  --fc-border: #d8dee8;
+  --fc-focus: #65a9ef;
+  --fc-success: #16856c;
+  --fc-warning: #a15c00;
+  --fc-error: #b42318;
+  --fc-radius: 8px;
+  --fc-shadow: 0 1px 2px rgb(16 24 40 / 5%);
+}
+
+[data-testid="stAppViewContainer"] {
+  background: var(--fc-canvas);
+  color: var(--fc-text);
+}
+
+[data-testid="stMain"] .block-container {
+  max-width: 1480px;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+[data-testid="stHeader"] {
+  background: color-mix(in srgb, var(--fc-canvas) 92%, transparent);
+  border-bottom: 1px solid var(--fc-border);
+}
+
+[data-testid="stAppDeployButton"] {
+  display: none;
+}
+
+[data-testid="stSidebar"] {
+  background: var(--fc-surface);
+  border-right: 1px solid var(--fc-border);
+}
+
+[data-testid="stSidebarNav"] {
+  padding-top: 0.5rem;
+}
+
+[data-testid="stSidebarNav"] a {
+  border-radius: 6px;
+  min-height: 2.35rem;
+  margin: 0.12rem 0.5rem;
+  color: var(--fc-muted);
+  font-weight: 520;
+}
+
+[data-testid="stSidebarNav"] a:hover {
+  background: var(--fc-surface-subtle);
+  color: var(--fc-text);
+}
+
+[data-testid="stSidebarNav"] a[aria-current="page"] {
+  background: color-mix(in srgb, var(--fc-primary) 12%, var(--fc-surface));
+  color: var(--fc-primary);
+}
+
+[data-testid="stSidebarNav"] a [data-testid="stIconMaterial"] {
+  color: currentColor;
+  opacity: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--fc-text);
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 1.9rem !important;
+  line-height: 1.18 !important;
+  font-weight: 680 !important;
+  margin-bottom: 0.2rem !important;
+}
+
+h2 {
+  font-size: 1.25rem !important;
+  font-weight: 650 !important;
+}
+
+h3 {
+  font-size: 1.04rem !important;
+  font-weight: 630 !important;
+}
+
+p, label, [data-testid="stCaptionContainer"] {
+  color: var(--fc-text);
+}
+
+[data-testid="stCaptionContainer"] {
+  color: var(--fc-muted);
+  line-height: 1.45;
+}
+
+[data-testid="stVerticalBlockBorderWrapper"] {
+  background: var(--fc-surface);
+  border-color: var(--fc-border) !important;
+  border-radius: var(--fc-radius) !important;
+  box-shadow: var(--fc-shadow);
+}
+
+[data-testid="stMetric"] {
+  padding: 0.55rem 0.7rem;
+  border-left: 2px solid var(--fc-primary);
+}
+
+[data-testid="stMetricLabel"] {
+  color: var(--fc-muted);
+  font-size: 0.78rem;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+
+[data-testid="stMetricValue"] {
+  color: var(--fc-text);
+  font-size: 1.28rem;
+  font-variant-numeric: tabular-nums;
+}
+
+[data-testid="stButton"] button,
+[data-testid="stDownloadButton"] button,
+[data-testid="stFormSubmitButton"] button {
+  border-radius: 6px;
+  min-height: 2.45rem;
+  font-weight: 620;
+  box-shadow: none;
+}
+
+[data-testid="stBaseButton-primary"],
+[data-testid="stButton"] button[kind="primary"],
+[data-testid="stDownloadButton"] button[kind="primary"] {
+  background: #0071e3 !important;
+  border-color: #0071e3 !important;
+  color: #ffffff !important;
+}
+
+[data-testid="stBaseButton-primary"] p,
+[data-testid="stButton"] button[kind="primary"] p,
+[data-testid="stDownloadButton"] button[kind="primary"] p {
+  color: #ffffff !important;
+}
+
+[data-testid="stBaseButton-primary"]:hover,
+[data-testid="stButton"] button[kind="primary"]:hover,
+[data-testid="stDownloadButton"] button[kind="primary"]:hover {
+  background: #005fbf !important;
+  border-color: #005fbf !important;
+}
+
+[data-testid="stBaseButton-primary"]:disabled,
+[data-testid="stButton"] button[kind="primary"]:disabled,
+[data-testid="stDownloadButton"] button[kind="primary"]:disabled {
+  background: #667085 !important;
+  border-color: #667085 !important;
+  color: #ffffff !important;
+  opacity: 1;
+}
+
+[data-testid="stButton"] button:focus-visible,
+[data-testid="stDownloadButton"] button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+[role="combobox"]:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--fc-focus) 45%, transparent) !important;
+  outline-offset: 2px;
+}
+
+[data-testid="stTextInput"] input,
+[data-testid="stNumberInput"] input,
+[data-testid="stSelectbox"] [data-baseweb="select"] > div,
+[data-testid="stMultiSelect"] [data-baseweb="select"] > div {
+  background: var(--fc-surface);
+  border-color: var(--fc-border);
+  border-radius: 6px;
+}
+
+[data-testid="stDataFrame"] {
+  border: 1px solid var(--fc-border);
+  border-radius: var(--fc-radius);
+  overflow: hidden;
+  background: var(--fc-surface);
+}
+
+[data-testid="stPlotlyChart"] {
+  background: var(--fc-surface);
+  border: 1px solid var(--fc-border);
+  border-radius: var(--fc-radius);
+  box-shadow: var(--fc-shadow);
+  padding: 0.25rem;
+}
+
+[data-testid="stExpander"] {
+  border-color: var(--fc-border);
+  border-radius: var(--fc-radius);
+  background: var(--fc-surface);
+}
+
+[data-testid="stAlert"] {
+  border-radius: var(--fc-radius);
+  border-width: 1px;
+}
+
+[data-testid="stCode"] {
+  border: 1px solid var(--fc-border);
+  border-radius: var(--fc-radius);
+}
+
+hr {
+  border-color: var(--fc-border) !important;
+}
+
+@media (max-width: 1100px) {
+  [data-testid="stMain"] .block-container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  h1 {
+    font-size: 1.65rem !important;
+  }
+
+  [data-testid="stMetricValue"] {
+    font-size: 1.08rem;
+  }
+}
+
+@media (max-width: 760px) {
+  [data-testid="stHorizontalBlock"] {
+    flex-wrap: wrap;
+  }
+
+  [data-testid="column"] {
+    min-width: min(100%, 18rem) !important;
+  }
+}

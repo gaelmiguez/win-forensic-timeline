@@ -1,0 +1,4 @@
+gt_id,scenario_id,action,expected_object,start_time_utc,tolerance_seconds,expected_sources
+GT-BR-001,S_BROWSER_SYNTH,url_visit,https://example.com/,2024-01-10T09:00:00Z,5,BrowserHistory
+GT-BR-002,S_BROWSER_SYNTH,url_visit,https://www.incibe.es/,2024-01-10T09:05:00Z,5,BrowserHistory
+GT-BR-003,S_BROWSER_SYNTH,url_visit,https://www.osi.es/,2024-01-10T09:10:00Z,5,BrowserHistory

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Si utiliza este prototipo académico, cite el software con los siguientes metadatos."
+title: "win-forensic-timeline: sistema de extracción y análisis de artefactos forenses en Windows"
+type: software
+authors:
+  - family-names: "Míguez Méndez"
+    given-names: "Gael"
+version: "0.9.0"
+repository-code: "https://github.com/gaelmiguez/win-forensic-timeline"
+url: "https://github.com/gaelmiguez/win-forensic-timeline"

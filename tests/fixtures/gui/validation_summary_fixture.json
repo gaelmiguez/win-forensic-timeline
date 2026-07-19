@@ -1,0 +1,13 @@
+{
+  "ground_truth_total": 1,
+  "correct": 1,
+  "partial": 0,
+  "not_detected": 0,
+  "false_positives": 0,
+  "coverage_rate": 1.0,
+  "correct_rate": 1.0,
+  "precision_rate": 1.0,
+  "average_time_delta_seconds": 0.0,
+  "max_time_delta_seconds": 0.0,
+  "traceability_rate": 1.0
+}

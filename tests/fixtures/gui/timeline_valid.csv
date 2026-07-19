@@ -1,0 +1,2 @@
+event_id,timestamp_utc,timestamp_local,timestamp_type,source_artifact,source_location,event_category,event_action,object,description,raw_evidence,parser_module,traceability_ref,confidence,provenance,scenario_id
+fixture-event-001,2024-01-10T09:00:00+00:00,,visit_time,BrowserHistory,evidence/browser/sample/History,browser_activity,url_visit,https://example.com/,Visita sintética,"{""url"": ""https://example.com/""}",browser_history_parser,History:urls:1,0.9,"{""parser"": ""browser_history_parser""}",S_GUI_FIXTURE

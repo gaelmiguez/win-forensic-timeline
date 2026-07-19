@@ -1,0 +1,12 @@
+evtx:
+  enabled: true
+  path: evidence/evtx
+prefetch:
+  enabled: true
+  path: evidence/prefetch
+registry:
+  enabled: true
+  path: evidence/registry
+browser:
+  enabled: true
+  path: evidence/browser

@@ -1,0 +1,4 @@
+gt_id,scenario_id,action,expected_time_utc,expected_object,expected_sources,matched_event_id,detected_time_utc,time_delta_seconds,result,matched_source,notes
+GT-BR-001,S_BROWSER_SYNTH,url_visit,2024-01-10T09:00:00Z,https://example.com/,BrowserHistory,capture-br-001,2024-01-10T09:00:00Z,0,correcto,BrowserHistory,Coincidencia controlada
+GT-BR-002,S_BROWSER_SYNTH,url_visit,2024-01-10T09:05:00Z,https://www.incibe.es/,BrowserHistory,capture-br-002,2024-01-10T09:05:00Z,0,correcto,BrowserHistory,Coincidencia controlada
+GT-BR-003,S_BROWSER_SYNTH,url_visit,2024-01-10T09:10:00Z,https://www.osi.es/,BrowserHistory,capture-br-003,2024-01-10T09:10:00Z,0,correcto,BrowserHistory,Coincidencia controlada
