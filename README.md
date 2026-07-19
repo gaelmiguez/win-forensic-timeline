@@ -2,7 +2,7 @@
 
 Prototipo académico modular en Python para la extracción o ingesta, normalización, correlación temporal, validación y exploración de artefactos forenses de Windows.
 
-Repositorio: <https://github.com/gaelmiguez/win-forensic-timeline> (privado durante la revisión previa a una eventual publicación pública).
+Repositorio público: <https://github.com/gaelmiguez/win-forensic-timeline>.
 
 ## Objetivo y alcance
 
@@ -186,13 +186,15 @@ La versión del prototipo documentada en esta publicación es `0.9.0`. La reprod
 - pruebas automatizadas;
 - ADR de las decisiones principales;
 - ejecución local y rutas relativas;
-- una etiqueta de release y un commit verificables tras la publicación.
+- una etiqueta de release y un commit verificables.
 
-La URL oficial del repositorio es <https://github.com/gaelmiguez/win-forensic-timeline>. Su visibilidad inicial es privada.
+La versión reproducible asociada al TFM está identificada mediante la etiqueta `v0.9.0-tfm` y el commit `7e092141720f518ab26ef2ce53ce16d7a518aac6`.
+
+Repositorio público: <https://github.com/gaelmiguez/win-forensic-timeline>.
 
 ## Licencia
 
-No se incluye una licencia de software porque no se ha verificado una elección expresa del autor. En ausencia de licencia, no se conceden permisos de reutilización más allá de los previstos legalmente. Esta decisión debe revisarse antes de una publicación pública.
+No se incluye una licencia de software. En ausencia de una licencia expresa, no se conceden permisos generales de reutilización, modificación o redistribución más allá de los previstos legalmente.
 
 ## Referencia académica
 

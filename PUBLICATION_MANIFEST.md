@@ -6,7 +6,7 @@ Versión del proyecto: `0.9.0`.
 
 Repositorio: <https://github.com/gaelmiguez/win-forensic-timeline>.
 
-Visibilidad inicial: privada.
+Visibilidad actual: pública.
 
 ## Archivos preparados para publicación
 
@@ -58,4 +58,4 @@ Los valores de loopback `127.0.0.1` y las rutas sintéticas `C:\Tools\ExampleApp
 
 ## Licencia
 
-No se añadió una licencia porque no existe una elección expresa y verificable del autor. Debe resolverse antes de cambiar la visibilidad del repositorio a pública.
+No se añadió una licencia porque no existe una elección expresa y verificable del autor.
